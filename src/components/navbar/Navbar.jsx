@@ -1,27 +1,8 @@
-import { Button, ButtonGroup, Flex, Menu, Box } from '@chakra-ui/react';
-import React from 'react';
-import { ImFirefox } from 'react-icons/im';
-import { MdDarkMode } from 'react-icons/md';
+import { useMediaQuery } from '@chakra-ui/react';
+import { NavbarLarge } from './NavbarLarge';
+import { NavbarMobile } from './NavbarMobile';
 export const Navbar = () => {
-	return (
-		<>
-			<Box>
-				<Flex justify="space-around">
-					<Menu>
-						<ButtonGroup>
-							<ImFirefox />
-						</ButtonGroup>
-						<ButtonGroup>
-							<Button variant="ghost">Inicio</Button>
-							<Button variant="ghost">Proyectos</Button>
-							<Button variant="ghost">Contactanos</Button>
-							<Button variant="ghost">
-								<MdDarkMode />
-							</Button>
-						</ButtonGroup>
-					</Menu>
-				</Flex>
-			</Box>
-		</>
-	);
+	const [isLargerThan800] = useMediaQuery('(min-width: 800px)');
+
+	return <>{isLargerThan800 ? <NavbarLarge /> : <NavbarMobile />}</>;
 };
