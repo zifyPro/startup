@@ -8,12 +8,16 @@ import {
 	MenuButton,
 	MenuList,
 	MenuItem,
+	Divider,
 } from '@chakra-ui/react';
 import React from 'react';
 import { ImFirefox } from 'react-icons/im';
 import { BiWorld } from 'react-icons/bi';
 import DarkModeSwitch from '../darkModeToggle/DarkModeSwitch';
+import { useTranslation } from 'react-i18next';
+
 export const NavbarLarge = () => {
+	const [t, i18n] = useTranslation('global');
 	return (
 		<div>
 			<Box>
@@ -32,7 +36,7 @@ export const NavbarLarge = () => {
 									textDecoration: 'underline solid  2px',
 								}}
 							>
-								Inicio
+								{t('menu.inicio')}
 							</Button>
 							<Button
 								variant="link"
@@ -42,7 +46,7 @@ export const NavbarLarge = () => {
 									textDecoration: 'underline solid  2px',
 								}}
 							>
-								Proyectos
+								{t('menu.proyectos')}
 							</Button>
 							<Button
 								variant="link"
@@ -52,7 +56,7 @@ export const NavbarLarge = () => {
 									textDecoration: 'underline solid  2px',
 								}}
 							>
-								Contactanos
+								{t('menu.contacto')}
 							</Button>
 							<Button
 								variant="link"
@@ -75,13 +79,18 @@ export const NavbarLarge = () => {
 									<BiWorld />
 								</MenuButton>
 								<MenuList>
-									<MenuItem>EN</MenuItem>
-									<MenuItem>ES</MenuItem>
+									<MenuItem onClick={() => i18n.changeLanguage('en')}>
+										EN
+									</MenuItem>
+									<MenuItem onClick={() => i18n.changeLanguage('es')}>
+										ES
+									</MenuItem>
 								</MenuList>
 							</Menu>
 						</ButtonGroup>
 					</Menu>
 				</Flex>
+				<Divider />
 			</Box>
 		</div>
 	);
