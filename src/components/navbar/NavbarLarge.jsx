@@ -9,11 +9,12 @@ import {
 	MenuList,
 	MenuItem,
 	Divider,
+	Link,
 } from '@chakra-ui/react';
 import React from 'react';
 import { ImFirefox } from 'react-icons/im';
 import { BiWorld } from 'react-icons/bi';
-import DarkModeSwitch from '../darkModeToggle/DarkModeSwitch';
+
 import { useTranslation } from 'react-i18next';
 
 export const NavbarLarge = () => {
@@ -24,8 +25,12 @@ export const NavbarLarge = () => {
 				<Flex justify="space-around" alignItems="center">
 					<Menu>
 						<ButtonGroup alignItems="center">
-							<Text fontSize="3xl">ZiFyPro</Text>
-							<ImFirefox />
+							<img
+								src="./logo_blanco.png"
+								alt="zifypro"
+								width="30px"
+								height="30px"
+							/>
 						</ButtonGroup>
 						<ButtonGroup gap={8}>
 							<Button
@@ -49,6 +54,8 @@ export const NavbarLarge = () => {
 								{t('menu.proyectos')}
 							</Button>
 							<Button
+								as={Link}
+								href="#Footer"
 								variant="link"
 								colorScheme="black"
 								_hover={{
@@ -58,15 +65,7 @@ export const NavbarLarge = () => {
 							>
 								{t('menu.contacto')}
 							</Button>
-							<Button
-								variant="link"
-								colorScheme="black"
-								_hover={{
-									transform: 'scale(1.4,1.4)',
-								}}
-							>
-								<DarkModeSwitch />
-							</Button>
+
 							<Menu>
 								<MenuButton
 									as={Button}
