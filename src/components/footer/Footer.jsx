@@ -17,115 +17,40 @@ import {
 } from 'react-icons/fa';
 import { SiGmail } from 'react-icons/si';
 import { FaLocationDot } from 'react-icons/fa6';
+import { useTranslation } from 'react-i18next';
 
 export const Footer = () => {
+	const [t] = useTranslation('global');
 	return (
-		<Box>
-			<Center id="Footer" width="100%" mt="20px">
-				{/* <Flex direction="row" justify="space-around" width="80%">
-					<Box>
-						<Text paddingLeft={3}>Te interesa una asesorias gratis?</Text>
-						<Flex direction="row" align="center">
-							<IconButton variant="ghost" size="md" icon={<FaPhoneAlt />} />
-							<Text>+54 9 3813 87-7299 Gabriel</Text>
-						</Flex>
-
-						<Flex direction="row" align="center">
-							<IconButton variant="ghost" size="md" icon={<FaPhoneAlt />} />
-							<Text>+54 9 11 3454-6732 Damian</Text>
-						</Flex>
-
-						<Flex direction="row" align="center">
-							<IconButton variant="ghost" size="md" icon={<FaPhoneAlt />} />
-							<Text>+54 9 11 6191-4453 Christian</Text>
-						</Flex>
-					</Box>
-					<Flex direction="column" alignItems="start" justify="center">
-						<Flex
-							gap={4}
-							flexDirection="row"
-							alignItems="center"
-							justify="center"
-						>
-							<IconButton
-								as={Link}
-								variant="ghost"
-								_hover={{ transform: 'scale(1.25)' }}
-								size="lg"
-								icon={<FaFacebook />}
-							/>
-							<Text> ZifyPro</Text>
-						</Flex>
-
-						<Flex
-							gap={4}
-							flexDirection="row"
-							alignItems="center"
-							justify="center"
-						>
-							<IconButton
-								as={Link}
-								variant="ghost"
-								icon={<FaInstagram />}
-								_hover={{ transform: 'scale(1.25)' }}
-								size="lg"
-							/>
-							<Text> ZifyPro01</Text>
-						</Flex>
-						<Flex
-							gap={4}
-							flexDirection="row"
-							alignItems="center"
-							justify="center"
-						>
-							<IconButton
-								as={Link}
-								variant="ghost"
-								_hover={{ transform: 'scale(1.25)' }}
-								size="lg"
-								icon={<FaLinkedin />}
-							/>
-							<Text> ZifyPro</Text>
-						</Flex>
-
-						<Flex
-							gap={4}
-							flexDirection="row"
-							alignItems="center"
-							justify="center"
-						>
-							<IconButton
-								as={Link}
-								variant="ghost"
-								_hover={{ transform: 'scale(1.25)' }}
-								size="lg"
-								icon={<SiGmail />}
-							/>
-							<Text> ZifyPro@gmail.com</Text>
-						</Flex>
-					</Flex>
-
-					<Flex direction="column">
-						<Flex direction="row" alignItems="center" justify="center">
-							<IconButton
-								as={Link}
-								variant="ghost"
-								_hover={{ transform: 'scale(1.25)' }}
-								size="lg"
-								icon={<FaLocationDot />}
-							/>
-							<Text>Buenos Aires - Argentina</Text>
-						</Flex>
-					</Flex>
-				</Flex> */}
+		<Box textColor="white" bg="#111" pt={12} id="Footer">
+			<Center width="100%">
 				<Flex gap={2} direction="column" justify="center" align="center">
-					<Text paddingLeft={3}>Te interesa una asesorias gratis?</Text>
+					<Text paddingLeft={3}>{t('footer.asesoria')}</Text>
 					<Flex direction="row" align="center" w="250px">
-						<IconButton variant="link" size="md" icon={<FaPhoneAlt />} />
+						<IconButton
+							variant="link"
+							size="md"
+							icon={<FaPhoneAlt />}
+							color="white"
+						/>
 						<Text>+54 9 3813 87-7299 Gabriel</Text>
 					</Flex>
 					<Flex direction="row" align="center" w="250px">
-						<IconButton variant="link" size="md" icon={<FaLocationDot />} />
+						<IconButton
+							variant="link"
+							size="md"
+							icon={<FaPhoneAlt />}
+							color="white"
+						/>
+						<Text>+54 9 11 3454-6732 Damian</Text>
+					</Flex>
+					<Flex direction="row" align="center" w="250px">
+						<IconButton
+							variant="link"
+							size="md"
+							icon={<FaLocationDot />}
+							color="white"
+						/>
 						<Text>Buenos Aires - Argentina</Text>
 					</Flex>
 
@@ -133,29 +58,35 @@ export const Footer = () => {
 						<IconButton
 							as={Link}
 							variant="ghost"
-							_hover={{ transform: 'scale(1.25)' }}
+							_hover={{ transform: 'scale(1.4)' }}
 							size="lg"
+							color="white"
 							icon={<FaFacebook />}
 						/>
 						<IconButton
 							as={Link}
+							href="https://www.instagram.com/zifypro_01/"
+							color="white"
 							variant="ghost"
 							icon={<FaInstagram />}
-							_hover={{ transform: 'scale(1.25)' }}
+							_hover={{ transform: 'scale(1.4)' }}
 							size="lg"
 						/>
 						<IconButton
 							as={Link}
+							color="white"
 							variant="ghost"
-							_hover={{ transform: 'scale(1.25)' }}
+							_hover={{ transform: 'scale(1.4)' }}
 							size="lg"
 							icon={<FaLinkedin />}
 						/>
 						<IconButton
 							as={Link}
+							color="white"
 							variant="ghost"
-							_hover={{ transform: 'scale(1.25)' }}
+							_hover={{ transform: 'scale(1.4)' }}
 							size="lg"
+							href="mailTo:zifypro76@gmail.com"
 							icon={<SiGmail />}
 						/>
 					</Flex>

@@ -11,6 +11,18 @@
         "texto-dos":"En ZifyPro destacamos como expertos en desarrollo Full Stack y diseño personalizado. Nos enorgullece no solo construir páginas web, sino también crear experiencias únicas que cumplen con tus objetivos. Colaborar con nosotros significa beneficiarte de soluciones digitales que van más allá de las expectativas, fusionando tecnología y creatividad para obtener resultados tangibles.",
         "nuestro-equipo": "Nuestro equipo",
         "texto-tres":"Nuestro equipo está compuesto por profesionales altamente calificados y apasionados por la tecnología y la creatividad. Cada miembro de ZifyPro aporta una amplia experiencia en desarrollo web, diseño gráfico, experiencia de usuario y gestión de proyectos. Nos enorgullece trabajar juntos para ofrecer soluciones digitales innovadoras y de alta calidad que superen las expectativas de nuestros clientes. Desde diseñadores hasta desarrolladores, nuestro equipo está comprometido con el éxito de tu proyecto y está aquí para brindarte el apoyo y la experiencia necesarios en cada paso del camino."
-    }
+    },
+    "Texto-trabajos":{
+        "nuestros-trabajos": "Nuestros proyectos",
+        "texto-vortex":"Dedicada a la venta de keys online, Vortex Gaming es una plataforma profesional a gran escala con diferentesimplementaciones:" ,
+        "texto-prop1": "-Autenticación de terceros",
+        "texto-prop2": "-Panel de administrador",
+        "texto-prop3": "-Gestión de stock",
+        "texto-prop4": "-DB/API propia"
+        
+    },
+    "footer":{
+        "asesoria":"Te interesa una asesorias gratis?"
+    } 
 
 }

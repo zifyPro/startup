@@ -10,7 +10,6 @@ import {
 } from '@chakra-ui/react';
 import React from 'react';
 import { ImFirefox } from 'react-icons/im';
-import DarkModeSwitch from '../darkModeToggle/DarkModeSwitch';
 import { BiWorld } from 'react-icons/bi';
 import { CiMenuBurger } from 'react-icons/ci';
 export const NavbarMobile = () => {
@@ -23,15 +22,6 @@ export const NavbarMobile = () => {
 						<ImFirefox />
 					</ButtonGroup>
 					<ButtonGroup>
-						<Button
-							variant="link"
-							colorScheme="black"
-							_hover={{
-								transform: 'scale(1.4,1.4)',
-							}}
-						>
-							<DarkModeSwitch />
-						</Button>
 						<Menu>
 							<MenuButton
 								as={Button}
