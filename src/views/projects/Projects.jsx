@@ -51,7 +51,12 @@ export const Projects = () => {
 								<Text color="white">{t('Texto-trabajos.texto-prop2')}</Text>
 								<Text color="white">{t('Texto-trabajos.texto-prop3')}</Text>
 								<Text color="white">{t('Texto-trabajos.texto-prop4')}</Text>
-								<Button colorScheme="gray" as={Link} href="" mt="10px">
+								<Button
+									colorScheme="gray"
+									as={Link}
+									href="https://pf-final-damian-projects.vercel.app/"
+									mt="10px"
+								>
 									Ver sitio
 								</Button>
 							</Flex>
