@@ -8,6 +8,7 @@ import {
 	MenuList,
 	MenuItem,
 	Link,
+	Image,
 } from '@chakra-ui/react';
 import React from 'react';
 import { BiWorld } from 'react-icons/bi';
@@ -24,18 +25,20 @@ export const NavbarLarge = () => {
 			position="fixed"
 			zIndex="1001"
 			w="100%"
-			fontFamily="Economica, sans-serif"
-			fontStyle="normal"
+			fontFamily="Roboto, sans-serif"
 			fontWeight="400"
+			fontStyle="normal"
 		>
 			<Flex justify="space-around" alignItems="center" h="100%">
 				<Menu>
-					<img
-						src="./logo_blanco.png"
-						alt="zifypro"
-						width="60px"
-						height="60px"
-					/>
+					<Link href="#Home">
+						<img
+							src="./logo_blanco.png"
+							alt="zifypro"
+							width="60px"
+							height="60px"
+						/>
+					</Link>
 
 					<ButtonGroup gap={8}>
 						<Button
@@ -52,9 +55,9 @@ export const NavbarLarge = () => {
 							{t('menu.inicio')}
 						</Button>
 						<Button
-							fontSize="20px"
 							as={Link}
 							href="#Projects"
+							fontSize="20px"
 							variant="link"
 							colorScheme="black"
 							_hover={{

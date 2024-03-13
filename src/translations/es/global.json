@@ -14,15 +14,22 @@
     },
     "Texto-trabajos":{
         "nuestros-trabajos": "Nuestros proyectos",
-        "texto-vortex":"Dedicada a la venta de keys online, Vortex Gaming es una plataforma profesional a gran escala con diferentesimplementaciones:" ,
+        "texto-vortex":"Dedicada a la venta de keys online, Vortex Gaming es una plataforma profesional a gran escala con diferentes implementaciones: " ,
         "texto-prop1": "-Autenticación de terceros",
         "texto-prop2": "-Panel de administrador",
         "texto-prop3": "-Gestión de stock",
-        "texto-prop4": "-DB/API propia"
+        "texto-prop4": "-DB/API propia",
+        "bilee-bob":"Dedicada a la venta de hamburguesas, es una aplicación utilizada para mantener el control del local",
+        "bilee-bob1":"-Base de datos propia",
+        "bilee-bob2":"-Autenticación de terceros",
+        "bilee-bob3":"-Integración con mercado pago",
+        "bilee-bob4":"-Panel de administrador",
+        "bilee-bob5":"-Gestión de stock"
+
         
     },
     "footer":{
-        "asesoria":"Te interesa una asesorias gratis?"
+        "asesoria":"¿Te interesa una asesorias gratis?"
     } 
 
 }

@@ -18,7 +18,13 @@
         "texto-prop1": "-Third-party authentication",
         "texto-prop2": "-Admin Panel",
         "texto-prop3": "-Stock Management",
-        "texto-prop4": "-own API/DB"
+        "texto-prop4": "-own API/DB",
+        "bilee-bob": "Dedicated to the sale of hamburgers, it is an application used to maintain control of the premises",
+        "bilee-bob1":"-Own database",
+        "bilee-bob2":"-Third-party authentication",
+        "bilee-bob3":"-Integration with paid market",
+        "bilee-bob4":"-Admin Panel",
+        "bilee-bob5":"-Stock Management"
         
     },
     "footer":{

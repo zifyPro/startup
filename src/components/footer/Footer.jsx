@@ -53,6 +53,15 @@ export const Footer = () => {
 						/>
 						<Text>Buenos Aires - Argentina</Text>
 					</Flex>
+					<Flex direction="row" align="center" w="250px">
+						<IconButton
+							variant="link"
+							size="md"
+							icon={<FaLocationDot />}
+							color="white"
+						/>
+						<Text>Tucuman - Argentina</Text>
+					</Flex>
 
 					<Flex>
 						<IconButton
