@@ -1,0 +1,16 @@
+.projects {
+  background-image: url("https://res.cloudinary.com/divxrmzge/image/upload/v1710398516/308shots_so_fuezsv.png");
+  background-size: cover;
+}
+.imgp {
+  border-radius: 8px;
+}
+.backgroundP {
+  background: rgba(91, 86, 86, 0.15);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(6.5px);
+  -webkit-backdrop-filter: blur(6.5px);
+  border: 1px solid rgba(91, 86, 86, 0.14);
+  padding: 20px;
+}

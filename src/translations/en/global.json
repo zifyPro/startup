@@ -1,19 +1,19 @@
 {
     "menu":{
-        "inicio": "Home",
-        "proyectos": "Projects",
-        "contacto": "Contact us"
+        "inicio": "HOME",
+        "proyectos": "PROJECTS",
+        "contacto": "CONTACT US"
     },
     "home":{
-        "quienes-somos": "About us?",
-        "texto-uno":"At ZifyPro we make your ideas a reality. We are a passionate team of Full Stack developers dedicated to transforming concepts into impactful digital experiences. We specialize in web development and custom design, offering innovative solutions that excel in creating unique and functional web pages.",
+        "quienes-somos": "¿ZifyPro?",
+        "texto-uno":"At ZifyPro, your ideas become reality. We are a passionate team of Full Stack developers dedicated to transforming concepts into impactful digital experiences. We specialize in web development and custom design, offering innovative solutions that stand out in the creation of unique web pages with fluid and functional user experiences (UX/UI).",
         "porque-elegirnos":"Why choose us?",
-        "texto-dos":"At ZifyPro we stand out as experts in Full Stack development and custom design. We take pride in not only building websites, but also creating unique experiences that meet your goals. Collaborating with us means benefiting from digital solutions that go beyond expectations, fusing technology and creativity to obtain tangible results.",
+        "texto-dos":"We stand out as experts in Full Stack development and custom design. We take pride in not only building web pages, but also creating unique experiences that meet your goals. Collaborating with us means benefiting from digital solutions that go beyond expectations, merging technology and creativity to achieve tangible results.",
         "nuestro-equipo": "Our team",
-        "texto-tres":"Our team is composed of highly skilled professionals passionate about technology and creativity. Each member of ZifyPro brings extensive experience in web development, graphic design, user experience, and project management. We take pride in working together to deliver innovative and high-quality digital solutions that exceed our clients' expectations. From designers to developers, our team is committed to the success of your project and is here to provide the support and expertise needed every step of the way."
+        "texto-tres":"Our team of passionate and highly qualified professionals brings a wealth of experience in web development, graphic design, user experience, and project management. We take pride in offering innovative and high-quality digital solutions that exceed our clients’ expectations. We are committed to the success of your project and are here to provide you with the necessary support."
     },
     "Texto-trabajos":{
-        "nuestros-trabajos": "Our projects",
+        "nuestros-trabajos": " PROJECTS",
         "texto-vortex":"Dedicated to the sale of online keys, Vortex Gaming is a large-scale professional platform with different implementations:" ,
         "texto-prop1": "-Third-party authentication",
         "texto-prop2": "-Admin Panel",

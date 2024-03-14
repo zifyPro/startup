@@ -25,7 +25,7 @@ export const HomeMobile = () => {
 				fontFamily="Roboto, sans-serif"
 				fontWeight="400"
 				fontStyle="normal"
-				fontSize="20px"
+				fontSize="25px"
 				pt="60px"
 			>
 				<Center alignItems="center">
@@ -33,18 +33,19 @@ export const HomeMobile = () => {
 						templateRows="1fr 1fr"
 						alignItems="center"
 						justifyContent="center"
+						ml="10px"
 					>
 						<GridItem data-aos="fade-right">
 							<Flex justify="center">
-								<Image src="./logo_blanco.png" boxSize="400px" />
+								<Image src="./logo_blanco.png" boxSize="300px" />
 							</Flex>
 						</GridItem>
 						<GridItem>
 							<Tabs
 								variant="soft-rounded"
-								colorScheme="gray"
+								colorScheme="red"
 								width="auto"
-								fontSize="14px"
+								fontSize="18px"
 							>
 								<TabList textColor="white">
 									<Tab textColor="white">{t('home.quienes-somos')} </Tab>

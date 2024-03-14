@@ -7,12 +7,12 @@ export const ProjectsText = () => {
 	return (
 		<Box
 			color="white"
-			fontSize="70px"
+			fontSize="50px"
 			py="30px"
 			bg="#111"
-			fontFamily="Roboto, sans-serif"
-			fontWeight="400"
-			fontStyle="normal"
+			fontFamily="Roboto mono, monospace"
+			fontWeight="300"
+			fontStyle="italic"
 		>
 			<Center>
 				<Text id="Projects" textAlign="center">

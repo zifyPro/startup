@@ -1,6 +1,7 @@
 import { Box, Button, Flex, Link, Text } from '@chakra-ui/react';
 import React from 'react';
 import { useTranslation } from 'react-i18next';
+import "./projects.css"
 
 export const ProjectsMobile = () => {
 	const [t] = useTranslation('global');
@@ -9,15 +10,16 @@ export const ProjectsMobile = () => {
 			<Box
 				pt="70px"
 				pb="70px"
-				bg="#1A202C"
+			    className='projects'
 				gap={10}
 				fontFamily="Roboto, sans-serif"
 				fontWeight="400"
 				fontStyle="normal"
-				fontSize="20px"
+				fontSize="15px"
 			>
 				<Box data-aos="fade-right" mb="20px">
-					<img src="./fotovortex.jpg" alt="Vortex" />
+					<img className='imgp'
+					src="https://res.cloudinary.com/divxrmzge/image/upload/v1710385042/704shots_so_zi6yed.png" alt="Vortex" />
 				</Box>
 
 				<Flex
@@ -49,7 +51,7 @@ export const ProjectsMobile = () => {
 				</Flex>
 
 				<Box data-aos="fade-right" mb="20px">
-					<img
+					<img className='imgp'
 						src="https://res.cloudinary.com/divxrmzge/image/upload/v1710289714/Imagen_de_WhatsApp_2024-03-12_a_las_20.50.07_349667f0_s5sf99.jpg"
 						alt="Bileebob"
 					/>

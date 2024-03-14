@@ -16,6 +16,7 @@ import {
 import React from 'react';
 import { useTranslation } from 'react-i18next';
 import { HomeMobile } from './HomeMobile';
+import "./home.css"
 
 export const Home = () => {
 	const [t, i18n] = useTranslation('global');
@@ -44,10 +45,13 @@ export const Home = () => {
 									<Image src="./logo_blanco.png" boxSize="700px" />
 								</Flex>
 							</GridItem>
+					<div className='panels'>
 							<GridItem data-aos="fade-left">
-								<Tabs variant="soft-rounded" colorScheme="gray" width="600px">
+								<Tabs variant="soft-rounded" colorScheme="red" width="700px"
+								mt="10px"
+								ml="10px">
 									<TabList textColor="white" fontSize="30px">
-										<Tab fontSize="24px" textColor="white">
+										<Tab fontSize="25px" textColor="white">
 											{t('home.quienes-somos')}{' '}
 										</Tab>
 										<Tab fontSize="25px" textColor="white">
@@ -57,25 +61,32 @@ export const Home = () => {
 											{t('home.nuestro-equipo')}
 										</Tab>
 									</TabList>
+
 									<TabPanels>
 										<TabPanel>
 											<Text
 												font-family="Raleway, sans-serif"
 												font-weight="400"
 												font-style="normal"
-											>
+												fontSize="20px"
+												
+												>
 												{t('home.texto-uno')}
 											</Text>
 										</TabPanel>
-										<TabPanel>
+										<TabPanel
+										fontSize="20px"
+										>
 											<p>{t('home.texto-dos')}</p>
 										</TabPanel>
-										<TabPanel>
+										<TabPanel
+										fontSize="20px">
 											<p>{t('home.texto-tres')}</p>
 										</TabPanel>
 									</TabPanels>
 								</Tabs>
 							</GridItem>
+											</div>
 						</Grid>
 					</Center>
 				</Box>

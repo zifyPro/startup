@@ -25,9 +25,9 @@ export const NavbarLarge = () => {
 			position="fixed"
 			zIndex="1001"
 			w="100%"
-			fontFamily="Roboto, sans-serif"
-			fontWeight="400"
-			fontStyle="normal"
+			fontFamily="Roboto mono, monospace"
+			fontWeight="300"
+			fontStyle="italic"
 		>
 			<Flex justify="space-around" alignItems="center" h="100%">
 				<Menu>
