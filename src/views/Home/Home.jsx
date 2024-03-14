@@ -47,7 +47,7 @@ export const Home = () => {
 							<GridItem data-aos="fade-left">
 								<Tabs variant="soft-rounded" colorScheme="gray" width="600px">
 									<TabList textColor="white" fontSize="30px">
-										<Tab fontSize="25px" textColor="white">
+										<Tab fontSize="24px" textColor="white">
 											{t('home.quienes-somos')}{' '}
 										</Tab>
 										<Tab fontSize="25px" textColor="white">

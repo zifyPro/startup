@@ -44,7 +44,7 @@ export const Projects = () => {
 								ml="10%"
 							>
 								<Text color="white" fontSize="40px">
-									Vortex Gaming
+									VORTTEX GAMING
 								</Text>
 								<Text color="white">{t('Texto-trabajos.texto-vortex')}</Text>
 								<Text color="white">{t('Texto-trabajos.texto-prop1')}</Text>
@@ -62,12 +62,13 @@ export const Projects = () => {
 							</Flex>
 						</GridItem>
 						<GridItem data-aos="fade-left" width="90%">
-							<img src="./fotovortex.jpg" alt="Vortex" />
+							<img src="https://res.cloudinary.com/divxrmzge/image/upload/v1710385042/704shots_so_zi6yed.png" alt="Vortex" />
 						</GridItem>
-						<GridItem data-aos="fade-right">
+						<GridItem  width="90%"  ml="100px" data-aos="fade-right" >
 							<img
 								src="https://res.cloudinary.com/divxrmzge/image/upload/v1710289714/Imagen_de_WhatsApp_2024-03-12_a_las_20.50.07_349667f0_s5sf99.jpg"
 								alt="Bileebob"
+								mr="120px"
 							/>
 						</GridItem>
 						<GridItem>
@@ -81,7 +82,7 @@ export const Projects = () => {
 								ml="10%"
 							>
 								<Text color="white" fontSize="40px">
-									Bilee Bob
+									BILEE-BOB
 								</Text>
 								<Text color="white">{t('Texto-trabajos.bilee-bob')}</Text>
 								<Text color="white">{t('Texto-trabajos.bilee-bob1')}</Text>

@@ -5,21 +5,21 @@
         "contacto": "Contactanos"
     },
     "home":{
-        "quienes-somos": "¿Quiénes somos?",
-        "texto-uno":"En ZifyPro hacemos de tus ideas una realidad. Somos un equipo apasionado de desarrolladores Full Stack dedicados a transformar conceptos en experiencias digitales impactantes. Nos especializamos en el desarrollo web y diseño personalizado, ofreciendo soluciones innovadoras que se destacan en la creación de páginas web únicas y funcionales.",
+        "quienes-somos": "¿ZifyPro?",
+        "texto-uno":"En ZifyPro, tus ideas se hacen realidad. Somos un equipo apasionado de desarrolladores Full Stack dedicados a transformar conceptos en experiencias digitales impactantes. Nos especializamos en desarrollo web y diseño personalizado, ofreciendo soluciones innovadoras que se destacan en la creación de páginas web únicas con exteriencias de usuario (ux/ui) fuidas y funcionales. ",
         "porque-elegirnos":"¿Por qué elegirnos?",
-        "texto-dos":"En ZifyPro destacamos como expertos en desarrollo Full Stack y diseño personalizado. Nos enorgullece no solo construir páginas web, sino también crear experiencias únicas que cumplen con tus objetivos. Colaborar con nosotros significa beneficiarte de soluciones digitales que van más allá de las expectativas, fusionando tecnología y creatividad para obtener resultados tangibles.",
-        "nuestro-equipo": "Nuestro equipo",
-        "texto-tres":"Nuestro equipo está compuesto por profesionales altamente calificados y apasionados por la tecnología y la creatividad. Cada miembro de ZifyPro aporta una amplia experiencia en desarrollo web, diseño gráfico, experiencia de usuario y gestión de proyectos. Nos enorgullece trabajar juntos para ofrecer soluciones digitales innovadoras y de alta calidad que superen las expectativas de nuestros clientes. Desde diseñadores hasta desarrolladores, nuestro equipo está comprometido con el éxito de tu proyecto y está aquí para brindarte el apoyo y la experiencia necesarios en cada paso del camino."
+        "texto-dos":"Nos destacamos como expertos en desarrollo Full Stack y diseño personalizado. Nos enorgullece no solo construir páginas web, sino también crear experiencias únicas que cumplen con tus objetivos. Colaborar con nosotros significa beneficiarte de soluciones digitales que van más allá de las expectativas, fusionando tecnología y creatividad para obtener resultados tangibles.",
+        "nuestro-equipo": "Nosotros",
+        "texto-tres":" Nuestro equipo de profesionales apasionados y altamente calificados aporta una amplia experiencia en desarrollo web, diseño gráfico, experiencia de usuario y gestión de proyectos. Nos enorgullece ofrecer soluciones digitales innovadoras y de alta calidad que superen las expectativas de nuestros clientes. Estamos comprometidos con el éxito de tu proyecto y estamos aquí para brindarte el apoyo y la experiencia necesarios en cada paso del camino."
     },
     "Texto-trabajos":{
-        "nuestros-trabajos": "Nuestros proyectos",
-        "texto-vortex":"Dedicada a la venta de keys online, Vortex Gaming es una plataforma profesional a gran escala con diferentes implementaciones: " ,
+        "nuestros-trabajos": "NUESTROS PROYECTOS",
+        "texto-vortex":"E-comerce especializado en la venta de keys online, Vortex Gaming es una plataforma profesional a gran escala con diferentes implementaciones: " ,
         "texto-prop1": "-Autenticación de terceros",
         "texto-prop2": "-Panel de administrador",
         "texto-prop3": "-Gestión de stock",
         "texto-prop4": "-DB/API propia",
-        "bilee-bob":"Dedicada a la venta de hamburguesas, es una aplicación utilizada para mantener el control del local",
+        "bilee-bob":"E-comere dedicado a la venta de comida, es una aplicación completa utilizada para mantener el control del local y gestionar los ingresos de stock y las ventas ",
         "bilee-bob1":"-Base de datos propia",
         "bilee-bob2":"-Autenticación de terceros",
         "bilee-bob3":"-Integración con mercado pago",
